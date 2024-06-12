@@ -1,0 +1,102 @@
+Study,Site,Version,ES.Metric,Value,N,Reverse,Label
+Albarracin S5,MTurk,RP:P,r,0.04,580,no,Albarracin S5 RP:P
+Albarracin S7,Ashland University,RP:P,eta sq,0.11194346,36,no,Albarracin S7 RP:P
+Albarracin S7,Brigham Young University,RP:P,eta sq,0.13331504,51,yes,Albarracin S7 RP:P
+Albarracin S7,Grand Valley State University,RP:P,eta sq,0.000936817,182,no,Albarracin S7 RP:P
+Albarracin S7,McDaniel College,RP:P,eta sq,0.10078796,26,no,Albarracin S7 RP:P
+Albarracin S7,Michigan State University,RP:P,eta sq,0.004825962,352,no,Albarracin S7 RP:P
+Albarracin S7,Southern Illinois University,RP:P,eta sq,0.011879844,57,yes,Albarracin S7 RP:P
+Albarracin S7,University of Texas at Dallas,RP:P,eta sq,0.001783373,174,yes,Albarracin S7 RP:P
+Crosby,Edinburgh,RP:P,pseudo R2,0.028,43,no,Crosby RP:P
+Crosby,Occidental,RP:P,pseudo R2,0.04,47,no,Crosby RP:P
+Crosby,Stirling,RP:P,pseudo R2,0.007,50,no,Crosby RP:P
+Forster,University of Presov,RP:P,rp,0.07,97,yes,Forster RP:P
+Forster,Nova Southeastern University,RP:P,rp,0.06,97,no,Forster RP:P
+Forster,Kozminski University,RP:P,rp,0.05,77,no,Forster RP:P
+Forster,University of Kassel,RP:P,rp,0.07,110,no,Forster RP:P
+Forster,Hofstra University,RP:P,rp,0.1,56,yes,Forster RP:P
+Forster,Universidade de Fortaleza,RP:P,rp,0.08,111,no,Forster RP:P
+Forster,Fort Lewis College,RP:P,rp,0.04,119,no,Forster RP:P
+Forster,Otto Friedrich Universitaet Bamberg,RP:P,rp,0.07,69,no,Forster RP:P
+LoBue,University of Belgrade,RP:P,r,-2.66E-03,57,no,LoBue RP:P
+LoBue,University of Nis,RP:P,r,1.45E-01,104,no,LoBue RP:P
+LoBue,Layola Marymount University,RP:P,r,-1.48E-01,57,no,LoBue RP:P
+LoBue,University of Novi Sad,RP:P,r,-4.10E-02,68,no,LoBue RP:P
+Payne,University of Genova,RP:P,r,-0.021,135,no,Payne RP:P
+Payne,University of Milan-Bicocca,RP:P,r,-0.075,136,no,Payne RP:P
+Payne,University of Padova,RP:P,r,0.134,139,no,Payne RP:P
+Payne,University of Rome Sapienza,RP:P,r,0.141,135,no,Payne RP:P
+Risen,MTurk,RP:P,g,-0.085121637,2811,no,Risen RP:P
+Shnabel,Texas A&M,RP:P,pseudo R2,0.006878618,186,yes,Shnabel RP:P
+Shnabel,Murray State,RP:P,pseudo R2,0.004988395,69,no,Shnabel RP:P
+Shnabel,Ithica,RP:P,pseudo R2,1.54E-05,159,no,Shnabel RP:P
+Shnabel,St. Josephs,RP:P,pseudo R2,0.000142645,279,yes,Shnabel RP:P
+Shnabel,Williamette,RP:P,pseudo R2,0.02385193,110,no,Shnabel RP:P
+Shnabel,Western Kentucky,RP:P,pseudo R2,0.006639612,181,no,Shnabel RP:P
+Shnabel,UC Riverside,RP:P,pseudo R2,0.001128266,176,no,Shnabel RP:P
+Shnabel,University of Belgrade,RP:P,pseudo R2,0.000536215,201,no,Shnabel RP:P
+van Dijk,Boston College,RP:P,d,0.33,60,no,van Dijk RP:P
+van Dijk,Eotvos Lorand University,RP:P,d,-0.24,78,no,van Dijk RP:P
+van Dijk,University of Goettingen,RP:P,d,0.27,65,no,van Dijk RP:P
+van Dijk,Maria Curie-Sklodowska University,RP:P,d,0.01,60,no,van Dijk RP:P
+van Dijk,Universidad de los Andes,RP:P,d,0.1,107,no,van Dijk RP:P
+van Dijk,Wharton School,RP:P,d,0.4,66,no,van Dijk RP:P
+Vohs,Miami University,RP:P,d,0.03,74,no,Vohs RP:P
+Vohs,Basel,RP:P,d,0.38,78,no,Vohs RP:P
+Vohs,Budapest,RP:P,d,-0.01,58,no,Vohs RP:P
+Vohs,Dortmund,RP:P,d,-0.13,69,no,Vohs RP:P
+Albarracin S5,Ashland University,Revised,r,0.02,81,no,Albarracin S5 Revised
+Albarracin S5,Erasmus,Revised,r,0.06,146,no,Albarracin S5 Revised
+Albarracin S5,Ghent,Revised,r,0.12,86,no,Albarracin S5 Revised
+Albarracin S5,Illinois,Revised,r,0.25,81,no,Albarracin S5 Revised
+Albarracin S5,Oregon,Revised,r,0.05,174,no,Albarracin S5 Revised
+Albarracin S5,Queens,Revised,r,0.06,100,no,Albarracin S5 Revised
+Albarracin S5,Toronto,Revised,r,0.06,121,no,Albarracin S5 Revised
+Albarracin S5,Wesleyan,Revised,r,0.15,95,no,Albarracin S5 Revised
+Albarracin S7,Ashland University,Revised,eta sq,0.033192732,46,yes,Albarracin S7 Revised
+Albarracin S7,Brigham Young University,Revised,eta sq,0.01931072,33,no,Albarracin S7 Revised
+Albarracin S7,Grand Valley State University,Revised,eta sq,0.02477114,167,yes,Albarracin S7 Revised
+Albarracin S7,McDaniel College,Revised,eta sq,0.04088266,17,no,Albarracin S7 Revised
+Albarracin S7,Michigan State University,Revised,eta sq,0.004965248,328,yes,Albarracin S7 Revised
+Albarracin S7,Southern Illinois University,Revised,eta sq,0.03851471,52,no,Albarracin S7 Revised
+Albarracin S7,University of Texas at Dallas,Revised,eta sq,0.01006444,165,yes,Albarracin S7 Revised
+Crosby,Edinburgh,Revised,pseudo R2,0.005,45,no,Crosby Revised
+Crosby,Occidental,Revised,pseudo R2,0.01,41,no,Crosby Revised
+Crosby,Stirling,Revised,pseudo R2,0.052,50,no,Crosby Revised
+Forster,University of Presov,Revised,rp,0.2,100,no,Forster Revised
+Forster,Nova Southeastern University,Revised,rp,0.14,81,yes,Forster Revised
+Forster,Kozminski University,Revised,rp,0.03,95,yes,Forster Revised
+Forster,University of Kassel,Revised,rp,0.09,120,no,Forster Revised
+Forster,Hofstra University,Revised,rp,0.22,47,yes,Forster Revised
+Forster,Universidade de Fortaleza,Revised,rp,0.06,97,no,Forster Revised
+Forster,Fort Lewis College,Revised,rp,0.11,111,no,Forster Revised
+Forster,Otto Friedrich Universitaet Bamberg,Revised,rp,0.15,69,no,Forster Revised
+LoBue,University of Belgrade,Revised,r,8.03E-02,56,no,LoBue Revised
+LoBue,University of Nis,Revised,r,6.45E-08,80,no,LoBue Revised
+LoBue,Layola Marymount University,Revised,r,1.58E-02,57,no,LoBue Revised
+LoBue,University of Novi Sad,Revised,r,6.08E-02,66,no,LoBue Revised
+Payne,Pacific Lutheran University,Revised,r,-0.268,146,no,Payne Revised
+Payne,University of Central Florida,Revised,r,-0.363,106,no,Payne Revised
+Payne,University of Virginia,Revised,r,0.063,160,no,Payne Revised
+Payne,Virginia Commonwealth University,Revised,r,-0.076,146,no,Payne Revised
+Risen,University of Pennsylvania ,Revised,g,0.090934018,311,no,Risen Revised
+Risen,Berkeley,Revised,g,-0.225264504,177,no,Risen Revised
+Risen,Stanford,Revised,g,-0.099101351,67,no,Risen Revised
+Risen,University of Virginia,Revised,g,0.046795463,146,no,Risen Revised
+Shnabel,Texas A&M,Revised,pseudo R2,0.004299559,187,no,Shnabel Revised
+Shnabel,Murray State,Revised,pseudo R2,0.008476652,71,no,Shnabel Revised
+Shnabel,Ithica,Revised,pseudo R2,0.03496818,165,no,Shnabel Revised
+Shnabel,St. Josephs,Revised,pseudo R2,0.000658264,280,no,Shnabel Revised
+Shnabel,Williamette,Revised,pseudo R2,0.03170424,111,no,Shnabel Revised
+Shnabel,Western Kentucky,Revised,pseudo R2,0.003498569,183,no,Shnabel Revised
+Shnabel,UC Riverside,Revised,pseudo R2,0.002113624,180,no,Shnabel Revised
+Shnabel,University of Belgrade,Revised,pseudo R2,0.01431905,199,no,Shnabel Revised
+van Dijk,Boston College,Revised,d,0.17,26,no,van Dijk Revised
+van Dijk,University of Goettingen,Revised,d,0.22,31,no,van Dijk Revised
+van Dijk,Maria Curie-Sklodowska University,Revised,d,0.58,27,no,van Dijk Revised
+van Dijk,Universidad de los Andes,Revised,d,0.82,35,no,van Dijk Revised
+Vohs,Miami University,Revised,d,0.08,72,no,Vohs Revised
+Vohs,Winchester,Revised,d,0.09,72,no,Vohs Revised
+Vohs,Basel,Revised,d,0.24,71,no,Vohs Revised
+Vohs,Budapest,Revised,d,0.54,57,no,Vohs Revised
+Vohs,Dortmund,Revised,d,-0.41,70,no,Vohs Revised
