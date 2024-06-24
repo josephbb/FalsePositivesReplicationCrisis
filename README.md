@@ -22,13 +22,14 @@ We highly recommend reproducing our analysis using [Docker](https://www.docker.c
 
 You'll need to [install docker](https://www.docker.com/products/docker-desktop/) following instructions for your machine. You should also install the [command line interface](https://www.docker.com/products/cli/). Our instructions will assume you're on a linux-like terminal (OS X is fine). We don't have a windows machine handy, but the docker documentation for the CLI should provide anything you need to adjust this README accordingly. 
 
-Our docker image contains all necessary data, code, and software in a single package to run our analysis exactly in a single step. You can either pull our image from dockerhub 
+Our docker image contains all necessary data, code, and software in a single package to run our analysis exactly in a single step. We recommend you pull our image from dockerhub, by running the following in a command line: 
 
 ```
 docker pull jbakcoleman/false_positive_v1
 ```
+This will create an image, jbackoleman/false_positive_v1 that we can use to replicate our findings (see below). 
 
-or build the image locally using our Dockerfile. Navigate into the root directory of our git repository and type: 
+Alternatively, if you wish to build it locally you can using our Dockerfile. This may be preferable if you have slow interent or wish to tinker with the container. Doing this should produce much the same output, although it's possible that some machines and configurations will lead to differences. 
 
 ```
 docker build -t repefforts .
