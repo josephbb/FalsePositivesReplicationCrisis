@@ -27,7 +27,7 @@ Our docker image contains all necessary data, code, and software in a single pac
 ```
 docker pull jbakcoleman/false_positive_v1
 ```
-This will create an image, jbackoleman/false_positive_v1 that we can use to replicate our findings (see below). 
+This will create an image, jbackoleman/false_positive_v1 that we can use to reproduce our findings (see below). 
 
 Alternatively, if you wish to build it locally you can using our Dockerfile. This may be preferable if you have slow interent or wish to tinker with the container. Doing this should produce much the same output, although it's possible that some machines and configurations will lead to differences. 
 
