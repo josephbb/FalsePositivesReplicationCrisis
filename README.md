@@ -24,13 +24,16 @@ You'll need to [install docker](https://www.docker.com/products/docker-desktop/)
 
 Our docker image contains all necessary data, code, and software in a single package to run our analysis exactly in a single step. You can either pull our image from dockerhub 
 
-CODE HERE
+```
+docker pull jbakcoleman/false_positive_v1
+```
 
-or create the image locally using our Dockerfile. Navigate into the root directory of our git repository and type: 
+or build the image locally using our Dockerfile. Navigate into the root directory of our git repository and type: 
 
 ```
 docker build -t repefforts .
 ```
+
 This creates an image, repefforts, that you can run to reproduce our code as described below. 
 
 ### Alternative: Python
@@ -66,13 +69,28 @@ python -m ipykernel install --user --name=repsurveys
 ### Docker
 The simplest way to reproduce our analysis is via the unmodified ```docker run``` command. This will produce all figures and tables, running inside of the terminal until all analyses have been completed. Resultant files will be stored on your host machine in a folder called output (which must exist):
 
+If you pulled our docker image type: 
+```
+docker run -it -v $(pwd)/output:/replicationsurveys/output jbakcoleman/false_positive_v1 run-reproduce
+```
+
+If you built it locally: 
+
 ```
 docker run -it -v $(pwd)/output:/replicationsurveys/output repefforts run-reproduce
 ```
 
 The ```-it``` creates an interactive run of the docker container which will show terminal output as our primary python script runs through the ipython notebooks. The next bit of our code pulls the output from inside our container and places it in our output folder. ```repefforts``` indicates which container we're running. Finally, ```run-reproduce``` is a flag telling our container to run all of the code. If you simply wish to start the container up and run the code some other way, you an omit this bit.
 
-You may wish to avoid running everything and simply analyze the code at your leisure in a jupyter notebook. Start up a jupyter notebook
+You may wish to avoid running everything and simply analyze the code at your leisure in a jupyter notebook. Start up a jupyter notebook: 
+
+If you pulled our docker image: 
+```
+ docker run -it -p 8888:8888 -v $(pwd)/output:/replicationsurveys/output jbakcoleman/false_positive_v1 jupyter
+
+```
+
+and if you built it locally: 
 
 ```
  docker run -it -p 8888:8888 -v $(pwd)/output:/replicationsurveys/output repefforts jupyter
