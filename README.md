@@ -42,6 +42,12 @@ We recommend installing [Anaconda](https://www.anaconda.com/) and [creating a vi
 conda create --name repsurveys python=3.10
 ```
 
+Activate
+
+```
+conda activate repsurveys
+```
+
 From the project directory, install requirements using:
 
 ```
