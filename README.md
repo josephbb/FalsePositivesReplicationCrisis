@@ -24,14 +24,16 @@ You'll need to [install docker](https://www.docker.com/products/docker-desktop/)
 
 Our docker image contains all necessary data, code, and software in a single package to run our analysis exactly in a single step. You can either pull our image from dockerhub 
 
-CODE HERE
-
+```
+ docker pull jbakcoleman/fp_rep:v1
+```
 or create the image locally using our Dockerfile. Navigate into the root directory of our git repository and type: 
 
 ```
 docker build -t repefforts .
 ```
-This creates an image, repefforts, that you can run to reproduce our code as described below. 
+
+This creates an image, repefforts, that you can run to reproduce our code as described below. If you go this route, you'll need to replace ```jbakcoleman/fp_rep:v1``` with ```repefforts``` when calling ```docker run``` 
 
 ### Alternative: Python
 Docker has a little learning curve and you may want to avoid all of that. If so, you can run our code on your machine rather than a docker container. We recommend against this, but it should work fine if you're feeling bold. 
@@ -66,14 +68,13 @@ then create the kernel:
 python -m ipykernel install --user --name=repsurveys
 ```
 
-
 ## Reproducing our analysis
 
 ### Docker
 The simplest way to reproduce our analysis is via the unmodified ```docker run``` command. This will produce all figures and tables, running inside of the terminal until all analyses have been completed. Resultant files will be stored on your host machine in a folder called output (which must exist):
 
 ```
-docker run -it -v $(pwd)/output:/replicationsurveys/output repefforts run-reproduce
+docker run -it -v $(pwd)/output:/replicationsurveys/output jbakcoleman/fp_rep:v1 run-reproduce
 ```
 
 The ```-it``` creates an interactive run of the docker container which will show terminal output as our primary python script runs through the ipython notebooks. The next bit of our code pulls the output from inside our container and places it in our output folder. ```repefforts``` indicates which container we're running. Finally, ```run-reproduce``` is a flag telling our container to run all of the code. If you simply wish to start the container up and run the code some other way, you an omit this bit.
@@ -81,7 +82,7 @@ The ```-it``` creates an interactive run of the docker container which will show
 You may wish to avoid running everything and simply analyze the code at your leisure in a jupyter notebook. Start up a jupyter notebook
 
 ```
- docker run -it -p 8888:8888 -v $(pwd)/output:/replicationsurveys/output repefforts jupyter
+ docker run -it -p 8888:8888 -v $(pwd)/output:/replicationsurveys/output jbakcoleman/fp_rep:v1 jupyter
  ```
 
 This links the standard output port for jupyter from the container to your host machine. You can open any web-browser and navigate to [http://localhost:8888/](http://localhost:8888/). It will request a token, which can be found in the output where you ran the docker run command. You'll be greeted in the root directory of the container and you can navigate to the repsurveys folder containing the code and run jupyter notebooks as normal. Because we have the ```-v $(pwd)/output:/replicationsurveys/output ``` command, output should be stored on your local machine but note that any modifications to the code will *only* modify the code within the container and will not modify code locally. 
