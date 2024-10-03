@@ -33,7 +33,7 @@ or create the image locally using our Dockerfile. Navigate into the root directo
 docker build -t repefforts .
 ```
 
-This creates an image, repefforts, that you can run to reproduce our code as described below. If you go this route, you'll need to replace ``jbakcoleman/fp_rep:v1``` with ```repefforts when calling ```docker run``` 
+This creates an image, repefforts, that you can run to reproduce our code as described below. If you go this route, you'll need to replace ```jbakcoleman/fp_rep:v1``` with ```repefforts``` when calling ```docker run``` 
 
 ### Alternative: Python
 Docker has a little learning curve and you may want to avoid all of that. If so, you can run our code on your machine rather than a docker container. We recommend against this, but it should work fine if you're feeling bold. 
