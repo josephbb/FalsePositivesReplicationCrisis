@@ -17,7 +17,7 @@ RUN chmod +x /runreproduce.sh
 LABEL maintainer="Joe Bak-Coleman <jbakcoleman@gmail.com>"
 
 RUN pip install -r /replicationsurveys/requirements.txt
-RUN pip install install nbconvert nbformat
+RUN pip install nbconvert nbformat
 CMD echo "Replication Crisis Model Container"
 
 
