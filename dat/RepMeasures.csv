@@ -1,0 +1,30 @@
+Study,K,N,Metric
+OSC2015,35,97,rep_sig
+OSC2015,51,75,meta_analytic
+OSC2015,45,95,rep_ci
+OSC2015,17,99,rep_d_smaller
+BOYCE2023,61,136,pred_interval
+Camerer2016,11,18,rep_sig
+Camerer2016,13,18,rep_ci
+Camerer2016,16,18,pred_interval
+Camerer2016,14,18,meta_analytic
+Protzko2023,47,52,rep_sig_either
+Soto2019,68,78,rep_sig
+Soto2019,22,76,rep_d_smaller
+Soto2019,44,76,rep_not_substantially_weaker
+Camerer2018,13,21,rep_sig
+Camerer2018,16,21,meta_analytic
+Camerer2018,14,21,pred_interval
+Camerer2018,12,21,small_telescopes
+Cova2019,29,37,rep_sig
+Cova2019,24,34,rep_ci
+Cova2019,9,32,rep_d_smaller
+Tyner2026,185, 248,small_telescopes
+Tyner2026,125,225,meta_analytic
+Tyner2026,125, 225,pred_interval
+Tyner2026, 103, 249,rep_ci
+Tyner2026, 86,249,orig_ci
+Tyner2026, 95, 206,sum_of_p_values
+Tyner2026, 151, 274,rep_sig
+Tyner2026, 79, 153,TOST
+

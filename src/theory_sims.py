@@ -370,6 +370,12 @@ def run_exp(mu, sigma, n, phack=True):
     }
 
 
+
+
+
+
+
+
 from src.parameters import (
     n,
     fig_3_tau,
@@ -381,6 +387,7 @@ from src.parameters import (
 
 # We need to do define these functions here so multiprocessing doesn't give us a headache when running
 # in a jupyter window
+
 def pub_func(x):
     return publication_rate(tau=x[0], sig=x[1], eps=1, n=n)
 
